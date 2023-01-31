@@ -1,0 +1,40 @@
+.App{
+  display: flex;
+  justify-content: center;
+}
+
+
+form{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h3{
+  margin: 0;
+  margin-top: 1em;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.custom-file-upload {
+  margin: auto;
+  border: 1px solid #ccc;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+}
+
+.custom-file-upload > img{
+  width: 50px;
+  height: 50px;
+}
+
+button{
+  margin-top: 1em;
+}
